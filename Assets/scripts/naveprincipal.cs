@@ -20,7 +20,7 @@ public class naveprincipal : MonoBehaviour
     }
     private void Update()
     {
-    if (Input.GetKeyDown(KeyCode.Z))
+        if (Input.GetKeyDown(KeyCode.Z))
         {
             GameObject bullet = Instantiate(bulletprefab);
             bullet.transform.position = spawner.position;
